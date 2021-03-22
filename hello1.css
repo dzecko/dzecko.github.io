@@ -1,0 +1,11 @@
+p {display: inline; color: red;}
+
+@media print and (color){
+    p{
+        color: blue;
+    }
+}
+
+em {display: block;}
+book, maintitle, subtitle, author, isbn {display: block;}
+publisher, pubdate {display: inline;}
